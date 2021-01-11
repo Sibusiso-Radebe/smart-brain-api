@@ -10,6 +10,7 @@ const handleRegister = ( req, res, db, bcrypt ) => {
 				email: email
 			})
 			.into('login')
+			//
 			.returning('email')
 			.then(loginEmail => {
 				return trx('users')
