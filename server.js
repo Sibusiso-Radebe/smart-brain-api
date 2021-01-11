@@ -6,7 +6,7 @@ const knex = require('knex')
 
 const register = require('./controllers/register');
 const signin = require('./controllers/Signin');
-const profile = require('./controllers/profile');
+const profile = require('./controllers/Profile');
 const image = require('./controllers/image');
 // const register = require('./controllers/register');
 // const signin = require('./controllers/signin');
